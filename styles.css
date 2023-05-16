@@ -1,20 +1,71 @@
+
 body{
 
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
      margin-right: 0;
+     background-color: rgb(22, 20, 20);
     
 }
 
 .moto{
   
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+   
+font-size: 50px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+ 
+  color: aliceblue;
+}
+.course{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin-bottom: 30px;
+margin-left: 40px;
+margin-top: 15px;
 
+}
+.contain{
     display: flex;
-    flex: 1;
+}
+
+.c_image{
+    width: 250px;
+border-radius: 15px;
+    height: 400px;
+    margin-top: 15px;
+}
+.container{
+    background-color:chocolate;
+}
+
+footer{
+
+height: 100px;
+display: flex;
+background-color: rgb(0, 5, 5);
+color: aliceblue;
+justify-content: center;
 
 }
-.moto2{
-   font-size: 50px;
+.gh1{
+    background-color: black;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+.h1{
+ font-size: 50px;
+ margin-top: 175px;
+ justify-items: center;
+
 
 }
+
