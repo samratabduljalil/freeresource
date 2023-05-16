@@ -1,0 +1,59 @@
+
+.navbar{
+   
+    flex: 1;
+   
+    background-color: black;
+   
+
+    justify-content: center;
+    
+    margin-left: 0;
+}
+
+button:hover{
+ cursor: pointer;
+color: chocolate;
+font-size: 22px;
+transition: .35s;
+
+}
+
+button{
+    background-color: black; 
+    color: coral;
+    border: none;
+    font-size: 20px;
+  
+}
+
+.search{
+background-color: rgb(15, 14, 14);
+border-radius: 5px;
+width: 350px;
+height: 25px;
+border-width: 5px;
+border: solid;
+border-color: rgb(69, 71, 72);
+color: chocolate;
+font-size: 20px;
+
+
+}
+.b_search{
+
+border: 1px solid;
+margin-left: 5px;
+
+}
+.b_search:hover{
+
+    background-color: chocolate;
+    color: black;
+}
+.header{
+
+    display: flex;
+
+
+}
