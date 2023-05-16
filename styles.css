@@ -94,7 +94,13 @@ font-family:  'Poppins', sans-serif;
         grid-template-columns: 1fr;
     }
     .card{
- margin-left: 16%;
+ margin-left: 100px;
+ margin-right: 100px;
+
+    }
+    .course_text{
+        margin-left: 120px;
+        margin-right: 6px;
 
     }
    
