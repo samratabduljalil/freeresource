@@ -88,7 +88,42 @@ font-family:  'Poppins', sans-serif;
    align-items: center;
 
 }
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 419px) {
+    .course{
+        
+        grid-template-columns: 1fr;
+    }
+    .card{
+ margin-left: 40px;
+ margin-right: 100px;
+
+    }
+    .course_text{
+        margin-left: 70px;
+        margin-right: 50px;
+
+    }
+   
+    .nav_home{
+        font-size: 1px;
+      
+    }
+    
+    .nav_course{
+        
+        font-size: 1px;
+      
+        
+      
+    }
+    
+    .nav_contact{
+        opacity: 0;
+    }
+
+   
+}
+@media screen and (min-width: 420px) and (max-width: 600px) {
     .course{
         
         grid-template-columns: 1fr;
@@ -98,11 +133,7 @@ font-family:  'Poppins', sans-serif;
  margin-right: 100px;
 
     }
-    .course_text{
-        margin-left: 120px;
-        margin-right: 6px;
-
-    }
+    
    
 }
 
