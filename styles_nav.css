@@ -5,7 +5,7 @@
    flex: 1;
     background-color: black;
     margin-left: 0;
-    padding: 20px;
+    padding: 25px;
 }
 
 .nav_home:hover{
@@ -27,7 +27,7 @@ transition: .35s;
    .nav_contact:hover{
     cursor: pointer;
    color: chocolate;
-   font-size: 22px;
+   font-size: 21px;
    transition: .35s;
    
    }
@@ -37,6 +37,7 @@ transition: .35s;
     color: coral;
     border: none;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
   
 }
 
@@ -45,6 +46,8 @@ transition: .35s;
     color: coral;
     border: none;
     font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
   
 }
 
@@ -53,7 +56,8 @@ transition: .35s;
     color: coral;
     border: none;
     font-size: 20px;
-  
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -61,7 +65,11 @@ transition: .35s;
 .navbar{
    
     display: flex;
- 
+ position: fixed;
+ width: 100%;
+ margin-top: 0px;
+ margin-bottom: 0;
+padding: 0px;
 
 }
 .logo{
