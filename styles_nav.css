@@ -8,7 +8,7 @@
     padding: 20px;
 }
 
-button:hover{
+.nav_home:hover{
  cursor: pointer;
 color: chocolate;
 font-size: 22px;
@@ -16,7 +16,39 @@ transition: .35s;
 
 }
 
-button{
+.nav_course:hover{
+    cursor: pointer;
+   color: chocolate;
+   font-size: 22px;
+   transition: .35s;
+   
+   }
+
+   .nav_contact:hover{
+    cursor: pointer;
+   color: chocolate;
+   font-size: 22px;
+   transition: .35s;
+   
+   }
+
+.nav_home{
+    background-color: black; 
+    color: coral;
+    border: none;
+    font-size: 20px;
+  
+}
+
+.nav_course{
+    background-color: black; 
+    color: coral;
+    border: none;
+    font-size: 20px;
+  
+}
+
+.nav_contact{
     background-color: black; 
     color: coral;
     border: none;
@@ -27,9 +59,9 @@ button{
 
 
 .navbar{
-
+   
     display: flex;
-
+ 
 
 }
 .logo{
@@ -66,3 +98,4 @@ transition: .35s;
     
     
     }
+   
