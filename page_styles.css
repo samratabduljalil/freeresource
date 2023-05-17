@@ -1,0 +1,85 @@
+.Road_map{  
+ padding-top: 150px;
+color: white;
+display: flex;
+justify-content: center;
+
+}
+
+
+.playlist{  
+    padding-top: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+   }
+   .channel{  
+    font-size:20px;
+   font-family: 'Times New Roman', Times, serif;
+    color:chocolate;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: white;
+   
+   }
+
+.container_page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-top: 0;
+
+
+
+}
+
+
+
+.card_page{
+    background-color: black;
+    border-radius: 20px;
+    height: 300px;
+    width: 250px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.contain_page{
+
+background-color: rgb(243, 241, 239);
+
+}
+
+.card_page:hover{
+    background-color: rgb(27, 26, 26);
+   
+    height: 320px;
+    width: 270px;
+ transition: .35s;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+
+
+iframe{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+iframe:hover{
+    height: 320px;
+    width: 270px;
+ transition: .35s;
+    
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+

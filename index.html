@@ -27,19 +27,19 @@
     <nav class="navbar">
 
         <div class="btn_nav">
-            <a class="nav_home">Home</a>
-            <a class="nav_course">Course</a>
-            <a class="nav_contact">Contact</a>
+            <a class="nav_home" href="index.html" >Home</a>
+            <a class="nav_course" href="course.html">Course</a>
+            <a class="nav_contact" href="contact.html">Contact</a>
         </div>
-        <div class="logo"> <span class="f_logo" href="index.html">Free</span><span class="r_logo"
-                href="index.html">Resource</span></div>
+        <a class="logo" href="index.html"><span class="f_logo" >Free</span><span class="r_logo"
+                >Resource</span></a>
     </nav>
 
 
     <section class="moto">
 
-        <p> Free Resources For The Tech People Who love to Learn New Skills </p>
-        <p> Just Learn And Implement </p>
+        <span id="element"> </span>  
+       
 
     </section>
 
@@ -49,11 +49,18 @@
         <h1 class="course_text">ALL COURCES</h1>
         <div class="course">
 
-            <div class="card">
+
+
+
+
+            <a href="webdesign.html" class="card" > 
                 <h1 class="cardtext"><span class="t1">WEB</span><span class="t2">DESIGN</span></h1>
+            </a>
 
 
-            </div>
+
+
+
             <div class="card">
                 <h1 class="cardtext"><span class="t1">WEB</span><span class="t2">DESIGN</span></h1>
 
@@ -453,6 +460,25 @@
 
     </footer>
 
+
+  
+
+  
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Free<span class="m_re">Resources</span> For The Tech People Who love to Learn New Skills','Just <span class="m_re">Learn</span> And <span class="m_re">Implement</span>'],
+      typeSpeed: 100,
+      backSpeed: 10,
+      loop:true,
+      showCursor: false,
+     
+    });
+  </script>
+</body>
 </body>
 
 </html>
+
