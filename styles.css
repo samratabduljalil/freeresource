@@ -147,9 +147,15 @@ color: chocolate;
     
     .nav_contact{
         opacity: 0;
+        margin-left: ;
     }
 
-   
+    .moto{
+font-size: 40px;
+margin-left: 25px;
+
+
+    }
 }
 @media screen and (min-width: 420px) and (max-width: 600px) {
     .course{
