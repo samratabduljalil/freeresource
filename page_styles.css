@@ -1,27 +1,28 @@
 .Road_map{  
  padding-top: 150px;
-color: white;
+color: rgb(6, 1, 1);
 display: flex;
 justify-content: center;
+font-size: 30px;
 
 }
 
 
 .playlist{  
-    padding-top: 150px;
-    color: white;
+  
+    color: black;
     display: flex;
     justify-content: center;
+    font-size: 30px;
+    background-color: chocolate;
    
    }
    .channel{  
-    font-size:20px;
-   font-family: 'Times New Roman', Times, serif;
-    color:chocolate;
+    color: black;
     display: flex;
-    flex: 1;
     justify-content: center;
-    background-color: white;
+    font-size: 30px;
+    background-color: chocolate;
    
    }
 
@@ -50,7 +51,7 @@ justify-content: center;
 }
 .contain_page{
 
-background-color: rgb(243, 241, 239);
+background-color: chocolate;
 
 }
 

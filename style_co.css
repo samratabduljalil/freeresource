@@ -1,0 +1,29 @@
+.course_name{
+
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+.course_name:hover{
+
+    cursor: pointer;
+}
+
+.l_text{
+    color: chocolate;
+    
+}
+.course_list{
+    display: grid;
+        justify-content: center;
+        
+    
+    }
+.l_text:hover{
+    color: white;
+   
+
+}
+.f_text:hover{
+    color: chocolate;
+}

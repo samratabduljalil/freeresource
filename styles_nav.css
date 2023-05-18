@@ -78,7 +78,7 @@ padding: 0px;
 }
 .logo{
  
-
+text-decoration: none;
 justify-content: end;
 padding: 15px;
 background-color: black;
@@ -92,22 +92,13 @@ background-color: black;
     color: chocolate;
     font-size:20px ;
 }
-.f_logo:hover{
-cursor: pointer;
-
-color: chocolate;
-font-size: 30px;
-transition: .35s;
-
-
-}
 .r_logo:hover{
-    cursor: pointer;
-    
-    color:white;
-    font-size: 25px;
-    transition: .35s;
-    
+ 
+    color: white;
     
     }
-   
+
+    .f_logo:hover{
+        color: chocolate;
+        
+    } 
