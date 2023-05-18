@@ -147,12 +147,12 @@ color: chocolate;
     
     .nav_contact{
         opacity: 0;
-        margin-left: ;
+       
     }
 
     .moto{
 font-size: 40px;
-margin-left: 25px;
+margin-left: 15px;
 
 
     }
@@ -172,7 +172,12 @@ margin-left: 25px;
         margin-right: 50px;
 
     }
-    
+    .moto{
+        font-size: 40px;
+        margin-left: 15px;
+        
+        
+            }
    
 }
 
