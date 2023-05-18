@@ -122,28 +122,17 @@ color: chocolate;
         grid-template-columns: 1fr;
     }
     .card{
- margin-left: 40px;
+ margin-left: 22px;
  margin-right: 100px;
 
     }
     .course_text{
-        margin-left: 70px;
+        margin-left: 40px;
         margin-right: 50px;
 
     }
    
-    .nav_home{
-        font-size: 1px;
-      
-    }
-    
-    .nav_course{
-        
-        font-size: 1px;
-      
-        
-      
-    }
+  
     
     .nav_contact{
         opacity: 0;
@@ -152,7 +141,8 @@ color: chocolate;
 
     .moto{
 font-size: 40px;
-margin-left: 15px;
+margin-left: 10px;
+padding-left: 35px;
 
 
     }
@@ -163,18 +153,19 @@ margin-left: 15px;
         grid-template-columns: 1fr;
     }
     .card{
- margin-left: 100px;
- margin-right: 100px;
+        margin-left: 22px;
+        margin-right: 100px;
 
     }
     .course_text{
-        margin-left: 70px;
+        margin-left: 40px;
         margin-right: 50px;
 
     }
     .moto{
         font-size: 40px;
-        margin-left: 15px;
+        margin-left: 10px;
+        padding-left: 35px;
         
         
             }

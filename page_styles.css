@@ -27,10 +27,11 @@ font-size: 30px;
    }
 
 .container_page{
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: 0;
-    margin-left: 40px;
+   
     margin-top: 0;
 
 
@@ -40,7 +41,7 @@ font-size: 30px;
 
 
 .card_page{
-    background-color: black;
+    background-color: white;
     border-radius: 20px;
     height: 300px;
     width: 250px;
@@ -56,7 +57,7 @@ background-color: chocolate;
 }
 
 .card_page:hover{
-    background-color: rgb(27, 26, 26);
+   
    
     height: 320px;
     width: 270px;
@@ -73,15 +74,17 @@ iframe{
     height: 300px;
     width: 250px;
     border-radius: 20px;
-
+   
 }
+
+
 iframe:hover{
     height: 320px;
     width: 270px;
  transition: .35s;
     
     margin-bottom: 10px;
-    margin-left: 10px;
+   
 }
 
 
@@ -93,30 +96,14 @@ iframe:hover{
         grid-template-columns: 1fr;
     }
     .card_page{
- margin-left: 40px;
- margin-right: 100px;
+        margin-left: 70px;
 
-    }
-    iframe{
-        margin-left: 40px;
-        margin-right: 100px;
-        
-    
-    }
+       
+           }
+         
    
    
-    .nav_home{
-        font-size: 1px;
-      
-    }
     
-    .nav_course{
-        
-        font-size: 1px;
-      
-        
-      
-    }
     
     .nav_contact{
         opacity: 0;

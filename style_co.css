@@ -27,3 +27,35 @@
 .f_text:hover{
     color: chocolate;
 }
+.n_text{
+color: white;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 419px) {
+    
+    .course_list{
+        font-size: 25px;
+
+    }
+    .course_name{
+
+        
+        font-size: 25px;
+    }
+   
+}
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    
+    .course_list{
+        font-size: 25px;
+
+    }
+    .course_name{
+
+        
+        font-size: 25px;
+    }
+   
+}
