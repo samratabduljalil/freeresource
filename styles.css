@@ -122,10 +122,19 @@ color: chocolate;
         grid-template-columns: 1fr;
     }
     .card{
- margin-left: 22px;
- margin-right: 100px;
+ margin-left: 42px;
+ margin-right: 80px;
 
     }
+    .card:hover{
+   
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        transition: .40s;
+      
+     
+       }
     .course_text{
         margin-left: 40px;
         margin-right: 50px;
