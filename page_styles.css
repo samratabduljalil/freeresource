@@ -151,6 +151,14 @@ iframe:hover{
  margin-right: 100px;
 
     }
+    .card_page:hover{
+   
+        margin-bottom: 10px;
+        margin-left: 70px;
+        transition: .40s;
+      
+     
+       }
     iframe{
         margin-left: 100px;
  margin-right: 100px;
