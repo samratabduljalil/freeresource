@@ -34,28 +34,32 @@ margin-bottom: 30px;
 margin-left: 40px;
 margin-top: 15px;
 
+
 }
 .contain{
     display: flex;
+    
 }
 
 
 .container{
-    background-color:rgb(228, 218, 208);
+    background-color:rgb(246, 198, 198);
+    
 }
 
 footer{
 
-height: 100px;
+flex-direction: column;
 display: flex;
 background-color: rgb(0, 5, 5);
 color: aliceblue;
 justify-content: center;
+align-items: center;
 
 }
 .card{
     background-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
     height: 300px;
     width: 250px;
     margin-top: 10px;
@@ -63,6 +67,9 @@ justify-content: center;
     margin-bottom: 20px;
     text-decoration: none;
     margin-left: 50px;
+   
+   
+   
 }
 .card:hover{
     height: 320px;
@@ -70,6 +77,15 @@ justify-content: center;
     margin-left: 40px;
     cursor: pointer;
     transition: .35s;
+    background-color: rgb(66, 63, 63);
+
+
+color:black;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
     
 
 }
@@ -77,19 +93,31 @@ justify-content: center;
 
 
 .cardtext{
- font-size: 34px;
- margin-top: 125px;
- justify-items: center;
- margin-left: 15px;
+    display: grid;
+    font-size: 30px;
+    width: 250px;
+    height: 180px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5px;
+color: chocolate;
+
+   
+   
+   }
+   .cardtext:hover{
+    color: black;
+ 
+ 
+    
+    
+    }
 
 
-}
-.t1{
-color:coral;
 
 
 
-}
+   
 
 .course_text{
     margin-top: 5px;
@@ -114,8 +142,31 @@ color: chocolate;
 }
 
 
+.in_card{
+display: flex;
+justify-content: center;
+background-color: chocolate;
 
 
+
+
+}
+.copy{
+
+    font-size: 35px;
+}
+
+.in{
+
+    height: 55px;
+    width: 55px;
+ 
+}
+.ft{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
 
 
 @media screen and (min-width: 0px) and (max-width: 419px) {
