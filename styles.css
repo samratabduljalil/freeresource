@@ -31,7 +31,7 @@ padding-top:290px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 margin-bottom: 30px;
-margin-left: 40px;
+
 margin-top: 15px;
 
 
@@ -43,7 +43,7 @@ margin-top: 15px;
 
 
 .container{
-    background-color:rgb(246, 198, 198);
+    background-color:chocolate;
     
 }
 
@@ -66,15 +66,17 @@ align-items: center;
     color: white;
     margin-bottom: 20px;
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 30px;
+    border: 2px;
+    border-color: chocolate;
    
    
    
 }
 .card:hover{
-    height: 320px;
-    width: 270px;
-    margin-left: 40px;
+    height: 310px;
+    width: 260px;
+    margin-left: 30px;
     cursor: pointer;
     transition: .35s;
     background-color: rgb(66, 63, 63);
@@ -157,6 +159,7 @@ background-color: chocolate;
 }
 
 .in{
+    margin-top: 10px;
 
     height: 55px;
     width: 55px;
@@ -173,6 +176,7 @@ background-color: chocolate;
     .course{
         
         grid-template-columns: 1fr;
+        margin-left: 40px;
     }
     .card{
  margin-left: 42px;
@@ -213,6 +217,7 @@ padding-left: 35px;
     .course{
         
         grid-template-columns: 1fr;
+        margin-left: 40px;
     }
     .card{
         margin-left: 22px;
@@ -247,6 +252,8 @@ padding-left: 35px;
     .course{
         
         grid-template-columns: 1fr 1fr;
+        
+
     }
    
 }
