@@ -28,6 +28,23 @@ padding-top:290px;
   color: aliceblue;
   
 }
+.moto1{
+  
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+  
+font-size: 55px;
+padding-top:290px;
+ padding-left: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 250px;
+ 
+
+  color: aliceblue;
+ 
+  
+}
 .course{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -142,6 +159,10 @@ justify-content: center;
 color: chocolate;
 
 
+}
+.m_re1{
+
+    color: black;
 }
 
 
