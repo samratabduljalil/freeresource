@@ -4,7 +4,7 @@ color: black;
 display: flex;
 justify-content: center;
 font-size: 30px;
-background-color: chocolate;
+background-color: rgb(251, 251, 251);
 }
 
 
@@ -14,7 +14,7 @@ background-color: chocolate;
     display: flex;
     justify-content: center;
     font-size: 30px;
-    background-color: chocolate;
+    background-color: rgb(254, 253, 251);
    
    }
    .channel{  
@@ -27,12 +27,13 @@ background-color: chocolate;
    }
 
 .container_page{
-    background-color:chocolate;
+    background-color:white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
     margin-bottom: 0;
    
     margin-top: 0;
+  
 
 
 
@@ -41,14 +42,15 @@ background-color: chocolate;
 
 
 .card_page{
-    background-color: white;
+    background-color: rgb(244, 244, 243);
     border-radius: 20px;
-    height: 300px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
     margin-top: 10px;
     color: white;
     margin-bottom: 20px;
     margin-left: 20px;
+    
     
 }
 .contain_page{
@@ -61,8 +63,8 @@ background-color: rgb(2, 1, 0);
 .card_page:hover{
    
    
-    height: 310px;
-    width: 260px;
+    height:210px;
+    width: 320px;
  transition: .35s;
     color: white;
     margin-bottom: 10px;
@@ -77,16 +79,16 @@ background-color: rgb(2, 1, 0);
 
 
 iframe{
-    height: 300px;
-    width: 250px;
-    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+   border-radius: 10px;
    
 }
 
 
 iframe:hover{
-    height: 320px;
-    width: 270px;
+    height:210px;
+    width: 320px;
  transition: .35s;
     
     margin-bottom: 10px;
