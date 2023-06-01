@@ -29,7 +29,7 @@ background-color: rgb(251, 251, 251);
 .container_page{
     background-color:white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     margin-bottom: 0;
    
     margin-top: 0;
@@ -42,15 +42,15 @@ background-color: rgb(251, 251, 251);
 
 
 .card_page{
-    background-color: rgb(244, 244, 243);
+    background-color:white;
     border-radius: 20px;
     height: 200px;
     width: 300px;
     margin-top: 10px;
-    color: white;
+    color: rgb(237, 229, 229);
     margin-bottom: 20px;
-    margin-left: 20px;
-    
+    margin-left: 30px;
+    margin-right: 20px;
     
 }
 .contain_page{
@@ -66,9 +66,8 @@ background-color: rgb(2, 1, 0);
     height:210px;
     width: 320px;
  transition: .35s;
-    color: white;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    color: rgb(243, 237, 237);
+    
    
 
    
@@ -91,7 +90,7 @@ iframe:hover{
     width: 320px;
  transition: .35s;
     
-    margin-bottom: 10px;
+   
    
 }
 
@@ -104,15 +103,16 @@ iframe:hover{
         grid-template-columns: 1fr;
     }
     .card_page{
-        margin-left: 80px;
-      
+        margin-left: 30px;
+      margin-right: 10px;
 
        
            }
            .card_page:hover{
    
             margin-bottom: 10px;
-            margin-left: 70px;
+            margin-left: 25px;
+            margin-right: 15px;
             transition: .40s;
           
          
@@ -120,10 +120,7 @@ iframe:hover{
    
     
     
-    .nav_contact{
-        opacity: 0;
-       
-    }
+    
 
     .playlist{  
   
