@@ -153,27 +153,47 @@ iframe:hover{
 
        .nav_home{
       
-        font-size: 10px;
+        font-size: 15px;
         
       
     }
     
     .nav_course{
-        font-size: 10px;
+        font-size: 15px;
       
     }
     
     .nav_contact{
-        font-size: 10px;
+        font-size: 15px;
         
     }
+
+
+    .f_logo{
+        color: azure;
+        font-size:20px ;
+    }
+    .r_logo{
+        color: chocolate;
+        font-size:15px ;
+    }
+    .r_logo:hover{
+     
+        color: white;
+        
+        }
+    
+        .f_logo:hover{
+            color: chocolate;
+            
+        }
 
 
 
     .nav_home:hover{
         cursor: pointer;
        
-       font-size: 11px;
+       font-size: 16px;
        transition: .35s;
        
        }
@@ -181,7 +201,7 @@ iframe:hover{
        .nav_course:hover{
         cursor: pointer;
        
-        font-size: 11px;
+        font-size: 16px;
         transition: .35s;
           
           }
@@ -189,7 +209,7 @@ iframe:hover{
           .nav_contact:hover{
             cursor: pointer;
        
-       font-size: 11px;
+       font-size: 16px;
        transition: .35s;
           }
        
@@ -201,7 +221,24 @@ iframe:hover{
         
         grid-template-columns: 1fr;
     }
-   
+    .f_logo{
+        color: azure;
+        font-size:20px ;
+    }
+    .r_logo{
+        color: chocolate;
+        font-size:15px ;
+    }
+    .r_logo:hover{
+     
+        color: white;
+        
+        }
+    
+        .f_logo:hover{
+            color: chocolate;
+            
+        }
     
     .playlist{  
   

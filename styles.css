@@ -107,11 +107,17 @@ align-items: center;
     color:black;
 
     background: rgba(255, 255, 255, 0.2);
-    
+    backdrop-filter: blur(10px) brightness(1.2);
     border-radius: 10px;
     
-    
 
+}
+.card:hover > .in_card{
+        margin: 10px;
+        
+        
+        
+        
 }
 
 
@@ -178,6 +184,11 @@ background-color: chocolate;
 
 
 
+
+}
+.in_card:hover{
+
+    margin: 10px;
 
 }
 .copy{
