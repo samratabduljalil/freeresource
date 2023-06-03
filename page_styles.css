@@ -10,15 +10,19 @@ background-color: rgb(251, 251, 251);
 
 
 .playlist{  
-  
     color: black;
     display: flex;
+    flex-grow: inherit;
+  
+   
     justify-content: center;
     font-size: 30px;
+   
     background-color: rgb(254, 253, 251);
    
    }
    .channel{  
+    background-color: black;
     color: black;
     display: flex;
     justify-content: center;
